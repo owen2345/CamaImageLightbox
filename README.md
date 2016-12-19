@@ -16,9 +16,9 @@ bundle
 ```
 * Go to admin -> plugins -> activate plugin
 * Edit any content and use shortcodes like
-    - Custom content to Image: 
+    - Custom content to Image (require camaleon_cms >= 2.4.1): 
     ```
-    [lightbox url="http://localhost:3000/media/1/learn_a_programming_language_step_24.jpg"][/lightbox]
+    [lightbox url="http://localhost:3000/media/1/learn_a_programming_language_step_24.jpg"]My Link[/lightbox]
     ```
     - Imple text to image:
     ```
