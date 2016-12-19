@@ -1,0 +1,18 @@
+{
+  "title": "Cama Image Lightbox",
+  "descr": "",
+  "key": "cama_image_lightbox", // must be the name of the folder of your plugin, sample: app/views/plugins/<my_plugin> ==> 'my_plugin'
+  "helpers": [
+    "Plugins::CamaImageLightbox::MainHelper"
+  ],
+  "hooks": {
+    "on_active": [
+      "cama_image_lightbox_on_active"
+    ],
+    "on_inactive": [
+      "cama_image_lightbox_on_inactive"
+    ],
+    "app_before_load": ["cama_image_lightbox_before_app"]
+    //here you can add all your hooks (read documentation)
+  }
+}
